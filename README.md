@@ -1,8 +1,14 @@
 # 🧠 Vibecode Editor – AI-Powered Web IDE
 
-![Vibecode Editor Thumbnail](public/vibe-code-editor-thumbnaail.svg)
+
 
 **Vibecode Editor** is a blazing-fast, AI-integrated web IDE built entirely in the browser using **Next.js App Router**, **WebContainers**, **Monaco Editor**, and **local LLMs via Ollama**. It offers real-time code execution, an AI-powered chat assistant, and support for multiple tech stacks — all wrapped in a stunning developer-first UI.
+
+<img width="1915" height="842" alt="image" src="https://github.com/user-attachments/assets/956ccdd7-bce4-4962-836b-27f1cfe6e9e2" />
+<img width="1917" height="855" alt="image" src="https://github.com/user-attachments/assets/a3ebe21a-244b-41e8-94a0-7d1ccc2b6aec" />
+<img width="1897" height="850" alt="image" src="https://github.com/user-attachments/assets/797c2ed9-167d-4beb-ac28-78e3e1d40376" />
+<img width="1909" height="854" alt="image" src="https://github.com/user-attachments/assets/03487361-290a-42d5-ae58-21425a40c7fd" />
+<img width="1890" height="818" alt="image" src="https://github.com/user-attachments/assets/5ab3c23f-dbb0-43ed-9e3b-688ba0ecad14" />
 
 ---
 
