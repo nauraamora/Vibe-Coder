@@ -35,7 +35,7 @@ export default async function DashboardLayout({
     
     <div className="flex min-h-screen w-full overflow-x-hidden">
       {/* Dashboard Sidebar */}
-      {/* @ts-ignore */}
+      {/* @ts-expect-error DashboardSidebar component expects different props */}
       <DashboardSidebar initialPlaygroundData={formattedPlaygroundData}/>
       <main className="flex-1">{children}</main>
     </div>

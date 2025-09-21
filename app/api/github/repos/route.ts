@@ -2,6 +2,17 @@ import { auth } from "@/auth";
 import { NextResponse } from "next/server";
 import { db } from "@/lib/db";
 
+interface GitHubRepository {
+  id: number;
+  name: string;
+  full_name: string;
+  description: string | null;
+  html_url: string;
+  clone_url: string;
+  private: boolean;
+  updated_at: string;
+}
+
 export async function GET() {
   const session = await auth();
 
@@ -34,11 +45,11 @@ export async function GET() {
       throw new Error(`GitHub API error: ${response.status}`);
     }
 
-    const repos = await response.json();
+    const repos: GitHubRepository[] = await response.json();
 
     return NextResponse.json({
       success: true,
-      repositories: repos.map((repo: any) => ({
+      repositories: repos.map((repo: GitHubRepository) => ({
         id: repo.id,
         name: repo.name,
         fullName: repo.full_name,
